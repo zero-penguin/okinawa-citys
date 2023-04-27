@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>application for Blog</h1>
+  <a href = "/create" role="button">new post</a>
+  <a herf = "/logout" role="button">logout</a>
+  {% for post in posts %}
+  <article>
+    <h2>{{post.title}}</h2>
+    <!-- post.idをupdateするためのボタンの作成 -->
+    <a href="/{{post.id}}/update" role="button">update</a>
+    <a href="/{{post.id}}/delete" role="button">delete</a>
+    <p>作成日時：{{post.created_at}}</p>
+    <p>{{post.body}}</p>
+  </article>
+  {% endfor %}
+{% endblock %}

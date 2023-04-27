@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>title</h1>
+  <ul>
+    <!-- pyhtonと書き方は同じ -->
+      {% for num1 in nums1 %}
+        {% for num2 in nums2 %}
+          {% if num1 * num2 >= 25 %}
+          {{num2 * num1}}
+          {% endif%}
+        {% endfor %}    
+      {% endfor %}
+  </ul>
+  <main>
+    <h3>
+      2の段の中の、5以上の数しか表示されていないでしょ？
+    </h3>
+  </main>
+</body>
+</html>
