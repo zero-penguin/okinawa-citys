@@ -1,8 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
+
+  <div Class="block"></div>
+
   <h1>application for Blog</h1>
-  <a href = "/create" role="button">new post</a>
-  <a herf = "/logout" role="button">logout</a>
+
+  <div Class="nav">
+    <a href = "/create" role="button">new post</a>
+    <a href = "/logout" role="button">logout</a>
+  </div>
+
+  <div Class="another_page">
+    
+    <a href="https://terakoya.sejuku.net/questions/my">侍エンジニア</a>
+    <a href="https://teratail.com/">テラテイル</a>
+    <a href="https://chat.openai.com/?model=text-davinci-002-render-sha">chatGPT</a>
+  
+  </div>
+  
   {% for post in posts %}
   <article>
     <h2>{{post.title}}</h2>
