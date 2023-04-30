@@ -1,4 +1,4 @@
 markupsafe==2.0.1
-jinja2==2.10
+flask_sqlalchemy==3.0.3
 Flask==2.2.2
 gunicorn==20.1.0
