@@ -1,5 +1,5 @@
 body {
-  background-color: #f9d2ad; /* 背景色を栗色に設定 */
+  background-image: url("/static/img/back.jpeg"); /* 背景色を栗色に設定 */
   font-family: "Yu Gothic UI", sans-serif; /* 和風のフォントを設定 */
   color: #0c0c0c; /* テキストの色を設定 */
   margin-right: 10%;
