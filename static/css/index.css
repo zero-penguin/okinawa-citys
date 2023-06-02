@@ -62,5 +62,6 @@ h2 {
 }
 
 p:first-child {
-  color: gray; /* 記事作成日時の色を灰色に設定 */
+  color: rgb(0, 0, 0); /* 記事作成日時の色を灰色に設定 */
+  background-color: #FFF;
 }
