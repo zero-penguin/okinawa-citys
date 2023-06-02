@@ -1,5 +1,5 @@
 body {
-  background-image: url("/static/img/back.jpeg"); /* 背景色を栗色に設定 */
+  background-image: url("/static/img/back.jpeg"); 
   font-family: "Yu Gothic UI", sans-serif; /* 和風のフォントを設定 */
   color: #0c0c0c; /* テキストの色を設定 */
   margin-right: 10%;
@@ -11,11 +11,13 @@ body {
 h1 {
   font-size: xx-large;
   font-family: Impact; /* タイトルのフォントをImpactに設定 */
-  color: rgb(35, 2, 2); /* タイトルの色を黒に設定 */
+  color: rgb(255, 255, 255); /* タイトルの色を黒に設定 */
+  text-align: center;
 }
 
 a {
   color: black; /* リンクの色を黒に設定 */
+  background-color: aliceblue;
 }
 
 .another_page{
